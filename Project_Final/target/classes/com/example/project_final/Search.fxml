@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #190E4F;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_final.Search">
+    <children>
+        <AnchorPane layoutY="69.0" prefHeight="330.0" prefWidth="700.0" style="-fx-background-color: #eee;">
+            <children>
+                <Button fx:id="backHomeBtn" layoutX="25.0" layoutY="271.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="80.0" style="-fx-background-color: #ffffff;" text="Back">
+                    <font>
+                        <Font name="Calibri" size="17.0" />
+                    </font>
+                </Button>
+                <TextField fx:id="from_field" layoutX="25.0" layoutY="14.0" prefHeight="26.0" prefWidth="172.0" promptText="From:" />
+                <TextField fx:id="where_field" layoutX="221.0" layoutY="14.0" prefHeight="26.0" prefWidth="190.0" promptText="Where" />
+                <DatePicker fx:id="datapicker" layoutX="450.0" layoutY="14.0" prefHeight="26.0" prefWidth="155.0" />
+                <Button fx:id="nextBookingBtn" layoutX="595.0" layoutY="270.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="80.0" style="-fx-background-color: #0461cb;" text="Next" textFill="WHITE">
+                    <font>
+                        <Font name="Calibri" size="18.0" />
+                    </font>
+                </Button>
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                <TableView fx:id="tableFlight" editable="true" layoutX="25.0" layoutY="50.0" prefHeight="208.0" prefWidth="650.0">
+                    <columns>
+                  <TableColumn fx:id="IDFlight" prefWidth="75.0" text="ID Flight" />
+                        <TableColumn fx:id="Fromrr" prefWidth="152.8000545501709" text="From" />
+                        <TableColumn fx:id="DateFrom" prefWidth="72.79995727539062" text="DATE" />
+                        <TableColumn fx:id="Where" prefWidth="188.79998779296875" text="Where" />
+                        <TableColumn fx:id="DateWhere" prefWidth="82.4000244140625" text="DATE" />
+                        <TableColumn fx:id="price" prefWidth="75.199951171875" text="Price" />
+                    </columns>
+                </TableView>
+                <TextField fx:id="idflight" alignment="CENTER" layoutX="478.0" layoutY="270.0" prefHeight="34.0" prefWidth="104.0" promptText="ID of the Flight ">
+                    <font>
+                        <Font name="Calibri" size="14.0" />
+                    </font>
+                </TextField>
+            </children>
+        </AnchorPane>
+        <Label layoutX="37.0" layoutY="10.0" prefHeight="46.0" prefWidth="265.0" text="JAM INTERNATIONAL" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="Berlin Sans FB" size="26.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

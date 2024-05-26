@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #190E4F;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_final.LOGINcon">
+    <children>
+        <Label layoutX="37.0" layoutY="10.0" prefHeight="46.0" prefWidth="263.0" text="JAM INTERNATIONAL" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="Berlin Sans FB" size="26.0" />
+            </font>
+        </Label>
+        <AnchorPane layoutY="64.0" prefHeight="335.0" prefWidth="700.0" style="-fx-background-color: #0461cb;">
+            <children>
+            <Label layoutX="24.0" layoutY="97.0" text="USERNAME" textFill="WHITE">
+               <font>
+                  <Font name="Century Gothic" size="20.0" />
+               </font></Label>
+            <TextField fx:id="usernameField" layoutX="137.0" layoutY="92.0">
+               <font>
+                  <Font name="Berlin Sans FB" size="20.0" />
+               </font></TextField>
+            <Label layoutX="20.0" layoutY="159.0" prefHeight="25.0" prefWidth="118.0" text="PASSWORD" textFill="#fffdfd">
+               <font>
+                  <Font name="Century Gothic" size="20.0" />
+               </font>
+            </Label>
+            <Button fx:id="loginBtn" layoutX="124.0" layoutY="270.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="89.0" style="-fx-background-color: #023e8a;" text="LOG-IN" textFill="WHITE">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="signupBtn" layoutX="31.0" layoutY="270.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="89.0" style="-fx-background-color: #023e8a;" text="SIGN-UP" textFill="WHITE">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Button>
+            <PasswordField fx:id="passwordField" layoutX="138.0" layoutY="154.0" prefHeight="35.0" prefWidth="239.0">
+               <font>
+                  <Font name="Berlin Sans FB" size="20.0" />
+               </font>
+            </PasswordField>
+            </children>
+        </AnchorPane>
+        <Button fx:id="contactsBtn" layoutX="583.0" layoutY="18.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="103.0" style="-fx-background-color: #0461cb;" text="Contacts" textFill="WHITE">
+            <font>
+                <Font name="Century Gothic" size="14.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

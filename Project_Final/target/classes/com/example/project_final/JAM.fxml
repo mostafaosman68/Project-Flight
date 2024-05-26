@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #190E4F;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_final.JAMControl">
+    <children>
+        <HBox layoutX="278.4" layoutY="69.0" prefHeight="330.0" prefWidth="700.0" AnchorPane.rightAnchor="0.0">
+            <children>
+                <AnchorPane prefHeight="330.0" prefWidth="200.0" style="-fx-background-color: #075ec8;" HBox.hgrow="ALWAYS">
+                    <children>
+                        <Text fill="WHITE" layoutX="10.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="About Us" textAlignment="CENTER" wrappingWidth="180.0">
+                            <font>
+                                <Font name="Berlin Sans FB" size="24.0" />
+                            </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="10.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="JUSTIFY" wrappingWidth="180.0">
+                            <font>
+                                <Font name="Century Gothic" size="16.0" />
+                            </font>
+                            <text>
+                                JAM International is a leading provider of travel and booking services. Our mission is to make travel easier and more accessible for everyone. Our dedicated team is here to help you plan your perfect trip.
+                            </text>
+                        </Text>
+                    </children>
+                </AnchorPane>
+                <AnchorPane prefHeight="330.0" prefWidth="500.0" style="-fx-background-color: #eee;" HBox.hgrow="ALWAYS">
+                    <children>
+                        <Button fx:id="clearBtn" layoutX="147.0" layoutY="221.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="80.0" style="-fx-background-color: #ffffff;" text="Clear">
+                            <font>
+                                <Font name="Calibri" size="18.0" />
+                            </font>
+                        </Button>
+                        <TextField fx:id="from_field" layoutX="110.0" layoutY="33.0" minWidth="-Infinity" prefHeight="34.0" prefWidth="260.0" promptText="From:" style="-fx-background-color: #ffffff;">
+                            <font>
+                                <Font name="Century Gothic" size="16.0" />
+                            </font>
+                        </TextField>
+                        <TextField fx:id="where_field" layoutX="110.0" layoutY="90.0" minWidth="-Infinity" prefHeight="35.0" prefWidth="260.0" promptText="Where:" style="-fx-background-color: #ffffff;">
+                            <font>
+                                <Font name="Century Gothic" size="16.0" />
+                            </font>
+                        </TextField>
+                        <DatePicker fx:id="dateOfFly_picker" layoutX="174.0" layoutY="148.0" prefHeight="46.0" prefWidth="131.0" promptText="YYYY-MM-DD" />
+                        <Button fx:id="searchBtn" layoutX="233.0" layoutY="221.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="80.0" style="-fx-background-color: #0461cb;" text="Search" textFill="WHITE">
+                            <font>
+                                <Font name="Calibri" size="18.0" />
+                            </font>
+                        </Button>
+                        <Label layoutX="110.0" layoutY="14.0" minWidth="-Infinity" prefHeight="18.0" prefWidth="260.0" text="From" />
+                        <Label layoutX="110.0" layoutY="71.0" minWidth="-Infinity" prefHeight="18.0" prefWidth="260.0" text="Where" />
+                        <Label layoutX="174.0" layoutY="129.0" prefHeight="18.0" prefWidth="118.0" text="Date of flight" />
+                    </children>
+                    <padding>
+                        <Insets left="30.0" right="30.0" top="50.0" />
+                    </padding>
+                </AnchorPane>
+            </children>
+        </HBox>
+        <Label layoutX="37.0" layoutY="10.0" prefHeight="46.0" prefWidth="260.0" text="JAM INTERNATIONAL" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="Berlin Sans FB" size="26.0" />
+            </font>
+        </Label>
+        <Button fx:id="contactsBtn" layoutX="583.0" layoutY="18.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="103.0" style="-fx-background-color: #0461cb;" text="Contacts" textFill="WHITE">
+            <font>
+                <Font name="Century Gothic" size="14.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
