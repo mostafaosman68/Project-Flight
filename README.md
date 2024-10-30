@@ -20,5 +20,7 @@ JAM INTERNATIONAL SYSTEM is a desktop-based application designed to facilitate t
 - **Database:** SQL
 
 
+### License
 
+This is a brief overview and directs to the LICENSE file for detailed information
 
