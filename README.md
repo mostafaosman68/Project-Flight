@@ -22,5 +22,5 @@ JAM INTERNATIONAL SYSTEM is a desktop-based application designed to facilitate t
 
 ### License
 
-This is a brief overview and directs to the 'Project-Flight/LICENSE' file for detailed information
+This is a brief overview and directs to the "Project-Flight/LICENSE" file for detailed information
 
